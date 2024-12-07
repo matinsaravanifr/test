@@ -1,18 +1,54 @@
-.div{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: relative;
-    animation-name: matin;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-@keyframes matin{
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,);
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius:10px;
 
-        0%   {background-color:red; left:0px; top:0px;}
-        25%  {background-color:yellow; left:200px; top:40px;}
-        50%  {background-color:blue; left:200px; top:200px;}
-        75%  {background-color:green; left:0px; top:200px;}
-        100% {background-color:red; left:0px; top:0px;}
-      
+}
+.val{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin: 0 auto ;
+    margin-top:30px ;
+    border-radius: 10px ;
+    border: 1px solid;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    width: 120px;
+    height: 35px;
+    border: none;
+    background-color: green;
+    box-shadow: 2px 2px 3px rgb(177, 176, 176);
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+button:active{
+    box-shadow: 1px 1px 1px rgb(211, 210, 210);
+}
+p{
+    margin-top: 50px;
+    text-align: center;
 }
